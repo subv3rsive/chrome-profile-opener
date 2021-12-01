@@ -13,6 +13,11 @@ CHROME_FOLDER_PATH = r"%localappdata%\Google\Chrome\User Data"
 
 #Number of profiles to open
 NUM_PROFILES = 3
+
+# New Tab (OPTIONAL)
+# Default is NEW_TAB = ""
+# Set to NEW_TAB = "www.somewebsite.com" to open a new tab on each profile.
+NEW_TAB = ""
 ```
 
 
