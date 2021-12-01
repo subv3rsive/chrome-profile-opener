@@ -8,4 +8,6 @@ CHROME_EXE_PATH = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
 # Path to the profile directory.
 CHROME_FOLDER_PATH = r"%localappdata%\Google\Chrome\User Data"
+
+
 3. Run open-chrome-profile.py
