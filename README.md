@@ -2,23 +2,7 @@
 Open up every chrome profile automatically.
 
 1. Install Python >3.x
+2. Download Repository
+3. Run `python open-chrome-gui.py`
 
-2. Edit the file and modify the following paths to reflect your system (Windows only):
-```
-#Path to the Chrome executable.
-CHROME_EXE_PATH = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
-
-#Path to the profile directory.
-CHROME_FOLDER_PATH = r"%localappdata%\Google\Chrome\User Data"
-
-#Number of profiles to open
-NUM_PROFILES = 3
-
-# New Tab (OPTIONAL)
-# Default is NEW_TAB = ""
-# Set to NEW_TAB = "www.somewebsite.com" to open a new tab on each profile.
-NEW_TAB = ""
-```
-
-
-3. Run open-chrome-profile.py
+Windows Binary also available.
